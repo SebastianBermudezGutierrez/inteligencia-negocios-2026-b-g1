@@ -11,7 +11,7 @@
 **Clasificación: OLTP** (On-Line Transaction Processing).
 **Justificación:** También se clasifica como OLTP porque cada factura, pago o nota crédito es una transacción individual que exige integridad crítica (no puede fallar a mitad de camino) y alta concurrencia (muchos estudiantes pagando al mismo tiempo sin que se corrompan los registros). Su función es procesar las operaciones financieras del día a día emitir, cobrar, anular, no responder preguntas analíticas de largo plazo.
 
-## 2. Pregunta de análisis (no conviene responderla sobre la base operativa)
+## 2. Pregunta de análisis
 
 ## Pregunta
  
