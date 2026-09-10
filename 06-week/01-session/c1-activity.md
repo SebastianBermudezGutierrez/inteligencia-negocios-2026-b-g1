@@ -8,8 +8,6 @@ GITHUB_USER: SebastianBermudezGutierrez
 **Curso:** Inteligencia de Negocios
 **Proceso analizado:** Matrículas académicas
 
-Para este taller elegí el proceso de matrículas porque es algo que conozco bien (lo he vivido cada semestre como estudiante) y porque tiene toda la pinta de un proceso transaccional clásico que después se necesita analizar en el tiempo.
-
 ## 1. Pregunta de negocio y KPI
 
 La pregunta que me interesa responder es:
