@@ -99,6 +99,6 @@ erDiagram
 
 Las dos se pueden responder solo agrupando `Fact_Matriculas` por las columnas de `Dim_Programa`/`Dim_Tiempo` en la primera, y por `Dim_Sede`/`Dim_Tiempo`/`Dim_Estudiante` en la segunda, sin necesidad de tocar el sistema OLTP.
 
-## Model & questions (English section)
+## Model & questions.
 
 The fact table `Fact_Matriculas` stores one row per individual student enrollment, so it is a transaction-grain fact table. Its main measures are `monto_matricula` (gross tuition amount), `monto_neto` (net revenue after discount), `numero_creditos` (enrolled credits), and `cantidad_matriculas` (a counter used to aggregate the number of enrollments). It connects to four dimensions through foreign keys: Time, Student, Program, and Campus. These dimensions give context so the measures can be sliced by period, student profile, program, or location. With this structure, the model can answer "What was the total net enrollment revenue by program and quarter in 2026?" and "Which campus had the highest growth in new-student enrollments compared to the previous year?" Both questions only require grouping and summing the fact table's measures by dimension attributes, without touching the original OLTP system.
