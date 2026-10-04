@@ -10,7 +10,7 @@ GITHUB_USER: SebastianBermudezGutierrez
 `data/ventas_sucias.csv`: 202 rows with duplicated orders, inconsistent text, "N/A" placeholders, blank values and invalid quantities.
 
 ## Applied steps
-![Pasos aplicados](Pasos_aplicados.png)
+![Pasos aplicados](Capturas/Pasos_aplicados.png)
 
 ## ETL steps & measures
 
